@@ -13,7 +13,29 @@ html, body {
     font-family: vazir;
 }
 .image {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
+}
+#food-container{
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.custom-container{
+    width: 550px;
+    border: 5px solid rgb(246, 202, 7);
+    border-radius: 25px;
+}
+.payment {
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px;
+}
+.header {
+    font-size: 30px;
+}
+.discount {
+    border-radius: 10px;
+    border: 2px solid rgb(246, 202, 7);
+    outline: none;
 }
